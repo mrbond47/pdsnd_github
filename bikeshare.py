@@ -21,12 +21,10 @@ def get_filters():
     while True:
         city = input('Which city data would you like to explore? Your options are Chicago, Washington or New York City : ').lower()
         if city in CITY_DATA:
+            print("You've selected {} as city \n".format(city))
             break
         else:
             print("{} is an invalid city\n".format(city)) # Print statement when user enters any string not in the city dictionary
-
-    
-    print("You've selected {} as city \n".format(city))
 
 
     # get user input for month (all, january, february, ... , june)
@@ -45,13 +43,11 @@ def get_filters():
         month_name = input("Enter the month (January - June) you want to filter by OR 'all' if you don't want any month filter : ").lower()
         if month_name in month_dict:
             month = month_dict[month_name] #Using the month_dict dictionary, assign the value of the 'month_name' key entered to the month variable
+            print("You've entered {} as month filter\n".format(month_name))
             break
         else:
             print("{} is an invalid month\n".format(month_name))
             
-
-    print("You've entered {} as month filter\n".format(month_name))
-
 
     # get user input for day of week (all, monday, tuesday, ... saturday)
     # There's no data data for Sunday hence the omission 
@@ -73,12 +69,12 @@ def get_filters():
         day_name = input("Please enter the day(Mon-Sat) you want to filter by OR 'all' if you don't want any day filter : ").lower()
         if day_name in day_name_dict:
             day = day_name_dict[day_name]
+            print("You've entered {} as day filter".format(day_name))
             break
         else:
             print("{} is invalid\n".format(day_name))
             
 
-    print("You've entered {} as day filter".format(day_name))
 
     print('-'*40)
     
