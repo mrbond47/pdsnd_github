@@ -10,7 +10,12 @@ Python: Bikeshare statistics for Chicago, New York City and Washington
 This project shows the git & github competency of the student
 
 ### Files used
-Include the files used
+The files included in project are:  
+-bikeshare.py
+-chicago.csv
+-new_york_city.csv
+-washington.csv
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
