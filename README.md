@@ -18,5 +18,10 @@ The files included in project are:
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+These are a few of the repos and websites reponsible for training and cementing the students knowledge on git & github:
+
+-https://github.com/udacity/pdsnd_github.git
+-https://github.com/udacity/course-collaboration-travel-plans.git 
+-https://github.com/GoogleChrome/lighthouse.git 
+-https://udacity.github.io/git-styleguide/ 
 
