@@ -7,7 +7,7 @@ This project was initiated on February 22, 2023
 Python: Bikeshare statistics for Chicago, New York City and Washington
 
 ### Description
-Describe what your project is about and what it does
+This project shows the git & github competency of the student
 
 ### Files used
 Include the files used
