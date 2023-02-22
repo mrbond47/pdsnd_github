@@ -69,12 +69,12 @@ def get_filters():
         day_name = input("Please enter the day(Mon-Sat) you want to filter by OR 'all' if you don't want any day filter : ").lower()
         if day_name in day_name_dict:
             day = day_name_dict[day_name]
+            print("You've entered {} as day filter".format(day_name))
             break
         else:
             print("{} is invalid\n".format(day_name))
             
 
-    print("You've entered {} as day filter".format(day_name))
 
     print('-'*40)
     
