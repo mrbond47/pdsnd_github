@@ -26,9 +26,6 @@ def get_filters():
         else:
             print("{} is an invalid city\n".format(city)) # Print statement when user enters any string not in the city dictionary
 
-    
-    
-
 
     # get user input for month (all, january, february, ... , june)
     #Dictionary used to check users input
@@ -46,13 +43,11 @@ def get_filters():
         month_name = input("Enter the month (January - June) you want to filter by OR 'all' if you don't want any month filter : ").lower()
         if month_name in month_dict:
             month = month_dict[month_name] #Using the month_dict dictionary, assign the value of the 'month_name' key entered to the month variable
+            print("You've entered {} as month filter\n".format(month_name))
             break
         else:
             print("{} is an invalid month\n".format(month_name))
             
-
-    print("You've entered {} as month filter\n".format(month_name))
-
 
     # get user input for day of week (all, monday, tuesday, ... saturday)
     # There's no data data for Sunday hence the omission 
