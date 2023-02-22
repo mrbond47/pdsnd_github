@@ -21,12 +21,13 @@ def get_filters():
     while True:
         city = input('Which city data would you like to explore? Your options are Chicago, Washington or New York City : ').lower()
         if city in CITY_DATA:
+            print("You've selected {} as city \n".format(city))
             break
         else:
             print("{} is an invalid city\n".format(city)) # Print statement when user enters any string not in the city dictionary
 
     
-    print("You've selected {} as city \n".format(city))
+    
 
 
     # get user input for month (all, january, february, ... , june)
